@@ -352,7 +352,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   font-family: "Gordita";
   font-size: 14px;
   font-weight: 700;
-  color: #0a4d3c;
+  color: #0095e5;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -2634,7 +2634,7 @@ select {
 /*  4.1 - Slider CSS
 /*----------------------------------------*/
 .single-slider {
-  height: 940px;
+  height: 800px;
   padding-top: 100px;
   padding-bottom: 105px;
   position: relative;
@@ -2684,7 +2684,7 @@ select {
 }
 
 .slider-content .main-title {
-  font-size: 80px;
+  font-size: 62px;
   line-height: 1;
   margin-top: 16px;
 }
@@ -2807,8 +2807,8 @@ select {
 }
 
 .slider-social .social-wrapper .social li a:hover {
-  background-color: #0a4d3c;
-  border-color: #0a4d3c;
+  background-color: #0787cb;
+  border-color: #0787cb;
   color: #fff;
 }
 
@@ -11846,7 +11846,7 @@ select {
 }
 
 .copyright-text p a {
-  color: #0787cb;
+  color: #ffffff;
 }
 
 .copyright-text p a:hover {
