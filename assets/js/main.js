@@ -173,6 +173,13 @@
         },
     });
 
+	setInterval(function() {
+		if($('.tej-sli2.swiper-slide-active').length) {
+			$('.tej-sli2-img').html('<img src="assets/images/slider/slider-1.jpg"/>');
+		} else {
+			$('.tej-sli2-img').html('');
+		}
+	}, 2000);
 
     /*--
         Magnific Popup Activation
