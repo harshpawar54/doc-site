@@ -116,8 +116,7 @@
   margin-left: 67px;
   }
   .tej-sli2 .slider-social {
-	bottom: -11px;
-    margin-left: 64px;
+	bottom: 105px;
 	}
 	.tej-pt {
 		padding-top: 0 !important;
@@ -134,10 +133,6 @@
   .tej-sli1 .slider-social {
   margin-left: 67px;
   }
-  .tej-sli2 .slider-social {
-	bottom: -11px;
-    margin-left: 64px;
-	}
 	.tej-pt {
 		padding-top: 0 !important;
 	}
