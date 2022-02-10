@@ -31,6 +31,8 @@
       <!--====== Use the minified version files listed below for better performance and remove the files listed above ======-->
       <!-- <link rel="stylesheet" href="assets/css/vendor/plugins.min.css">
          <link rel="stylesheet" href="assets/css/style.min.css"> -->
+		 <!-- cookiealert styles -->
+    <link rel="stylesheet" href="assets/css/cookiealert.css">
    </head>
    <body>
       <div class="main-wrapper">
@@ -374,6 +376,15 @@ Wen anrufen: 116117 oder 112?
       </a>
       <!--Back To End-->
       </div>
+	  <!-- START Bootstrap-Cookie-Alert -->
+	<div class="alert text-center cookiealert" role="alert">
+		<b>Magst du Kekse?</b> &#x1F36A; Wir verwenden Cookies, um sicherzustellen, dass Sie die beste Erfahrung auf unserer Website machen. <a href="https://cookiesandyou.com/" target="_blank">Mehr erfahren</a>
+
+		<button type="button" class="btn btn-primary btn-sm acceptcookies">
+			Ich stimme zu
+		</button>
+	</div>
+	<!-- END Bootstrap-Cookie-Alert -->
       <!-- JS
          ============================================ -->
       <!-- Modernizer & jQuery JS -->
@@ -392,5 +403,6 @@ Wen anrufen: 116117 oder 112?
       <!-- <script src="assets/js/plugins.min.js"></script> -->
       <!-- Main JS -->
       <script src="assets/js/main.js"></script>
+	  <script src="assets/js/cookiealert.js"></script>
    </body>
 </html>
