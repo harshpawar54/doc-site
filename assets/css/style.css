@@ -265,21 +265,21 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 /*--Section Spacing--*/
 .section-padding {
-  padding-top: 140px;
-  padding-bottom: 140px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section-padding {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-padding {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 
@@ -352,7 +352,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   font-family: "Gordita";
   font-size: 14px;
   font-weight: 700;
-  color: #0a4d3c;
+  color: #0095e5;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -1803,6 +1803,8 @@ select {
   width: 100%;
   z-index: 99;
   background-color: #fff;
+  box-shadow: 0px 5px 5px 0px rgb(233 233 233 / 50%);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
@@ -2634,113 +2636,140 @@ select {
 /*  4.1 - Slider CSS
 /*----------------------------------------*/
 .single-slider {
-  height: 940px;
-  padding-top: 100px;
-  padding-bottom: 105px;
+  height: auto;
+ 
   position: relative;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+
+  overflow: auto;
+  vertical-align: middle;
+  padding-top: 40px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .single-slider {
-    height: 780px;
+    height: auto;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .single-slider {
-    height: 780px;
+    height: auto;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .single-slider {
     height: auto;
-    padding-top: 195px;
-    padding-bottom: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
 
 @media only screen and (max-width: 575px) {
   .single-slider {
-    padding-top: 135px;
-    padding-bottom: 140px;
+    padding-top: 10px;
+    padding-bottom: 0px;
   }
 }
-
+.slider-section{
+  padding-top: 10px;
+}
 .slider-content {
-  max-width: 600px;
+  max-width: auto;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  font-family: "Lato", Sans-serif;
+  margin-top: 15px;
+ 
+
 }
 
 .slider-content .sub-title {
-  font-family: "Gordita";
+   
+  font-family: "Lato", Sans-serif;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   color: #0095e5;
   text-transform: uppercase;
   letter-spacing: 1px;
+  line-height: 1.8;
+  text-align: center;
+  padding-top: 20px;
 }
 
 .slider-content .main-title {
-  font-size: 80px;
-  line-height: 1;
-  margin-top: 16px;
+  
+  font-size: 24px;
+  line-height: 1.8;
+  text-align: center;
+  
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slider-content .main-title {
-    font-size: 64px;
+    font-size: 24px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider-content .main-title {
-    font-size: 64px;
+    font-size: 24px;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .slider-content .main-title {
-    font-size: 56px;
+    font-size: 21px;
   }
 }
 
 @media only screen and (max-width: 575px) {
   .slider-content .main-title {
-    font-size: 36px;
+    font-size: 20px;
     line-height: 1.3;
   }
 }
 
 .slider-content p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   color: #2c241b;
   margin-top: 30px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 575px) {
+  .slider-content {
+  max-width: auto;
+  height: auto;
+  overflow: hidden;
+   text-align: center;
+
+}
+
   .slider-content p {
     font-size: 16px;
   }
+  .slider-content .sub-title {
+  padding-top: 0px;
+}
 }
 
 .slider-content .btn {
-  margin-top: 30px;
+  
 }
 
 .slider-social {
   position: absolute;
-  bottom: 60px;
+  bottom: 0px;
   left: 0;
   width: 100%;
 }
 
 @media only screen and (max-width: 575px) {
   .slider-social {
-    bottom: 80px;
+    position: none;
   }
 }
 
@@ -2807,8 +2836,8 @@ select {
 }
 
 .slider-social .social-wrapper .social li a:hover {
-  background-color: #0a4d3c;
-  border-color: #0a4d3c;
+  background-color: #0787cb;
+  border-color: #0787cb;
   color: #fff;
 }
 
@@ -11846,7 +11875,7 @@ select {
 }
 
 .copyright-text p a {
-  color: #0787cb;
+  color: #ffffff;
 }
 
 .copyright-text p a:hover {
@@ -11903,4 +11932,34 @@ select {
 .back-to-top:hover {
   color: #fff;
   background-color: #343a40;
+}
+
+
+.cookie-consent {
+    position: fixed;
+    bottom: 8px;
+    left: 20px;
+    width: 260px;
+    padding-top: 7px;
+    height: 83px;
+    color: #fff;
+    line-height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    background: #292929;
+    z-index: 120;
+    cursor: pointer;
+    border-radius: 3px
+}
+
+.allow-button {
+    height: 20px;
+    width: 104px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 10px;
+    border-radius: 3px;
+    border: 1px solid green;
+    background-color: green
 }

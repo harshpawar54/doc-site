@@ -173,6 +173,15 @@
         },
     });
 
+	setInterval(function() {
+		if($('.tej-sli2.swiper-slide-active').length) {
+			setTimeout(function() {
+				$('.tej-sli2-img').html('<img src="assets/images/slider/slider-1.jpg"/>');
+			}, 1500);
+		} else {
+			$('.tej-sli2-img').html('');
+		}
+	}, 2000);
 
     /*--
         Magnific Popup Activation
@@ -259,10 +268,10 @@
             scrollTop: 0,
         }, 1500);
     });
+	$('.mobile-menu-items').find('li > a').unbind('click');
+	$('.mobile-menu-items').find('li > a').on('click',function() {
+	  $('.menu-close').click();
+	});		
 
-	  
-	
-	
-    
-    
 })(jQuery);
+
