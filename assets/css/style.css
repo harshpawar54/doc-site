@@ -11876,10 +11876,11 @@ select {
 
 .copyright-text p a {
   color: #ffffff;
+  text-decoration: underline;
 }
 
 .copyright-text p a:hover {
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 
 .copyright-link {
